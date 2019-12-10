@@ -1,0 +1,33 @@
+#Layer_1 {
+  text-align: center;
+  max-height: 50vh;
+}
+.cls-1 {
+  stroke: #fff;
+}
+.cls-1,
+.cls-4 {
+  
+}
+.cls-2,
+.cls-4 {
+  fill: #fff;
+}
+.cls-3 {
+  fill: #ed1e79;
+}
+.cls-4,
+.cls-5 {
+  stroke: #000;
+}
+.cls-5 {
+  fill: none;
+  stroke-width: 2px;
+}
+.cls-6 {
+  fill: blue;
+  stroke-width: 30px;
+}
+#_buiten_ {
+  width: 10%;
+}

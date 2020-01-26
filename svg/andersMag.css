@@ -1,0 +1,60 @@
+#Layer_1 {
+  text-align: center;
+  max-height: 50vh;
+}
+
+.cls-1 {
+  stroke: #fff;
+
+}
+.cls-1,
+.cls-4 {
+
+}
+.cls-2,
+.cls-4 {
+  fill: #fff;
+}
+.cls-3 {
+  fill: #ed1e79;
+}
+.cls-4,
+.cls-5 {
+  stroke: #000;
+}
+.cls-5 {
+  fill: none;
+  stroke-width: 2px;
+}
+.cls-6 {
+  fill: blue;
+  stroke-width: 30px;
+}
+.cls-6:active{
+  animation: move;
+  animation-duration: .5s;
+  animation-iteration-count: 15;
+}
+  @keyframes move  {
+  0%   {fill:grey; }
+  25%  {fill:orange;}
+  50%  {fill:black;  }
+  75%  {fill:purple;  }
+  100% {fill:turquoise; }
+}
+#_buiten_ {
+  width: 10%;
+}
+
+
+
+keyframes linegrow{
+  0% { transform: scaleX(1)}
+  50% { transform: scaleX(1.5) }
+  100% { transform: scaleX(1)}
+}
+
+#container {
+  text-align: center;
+  overflow: hidden;
+}
